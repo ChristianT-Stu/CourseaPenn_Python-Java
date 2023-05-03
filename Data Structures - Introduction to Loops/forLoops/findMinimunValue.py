@@ -14,7 +14,9 @@ min_number = numbers[0]
 
 #iterate over this list for the min value
 for number in numbers:
+    #check if the number is less than the defined min num (above)
     if number < min_number:
+        #reset min number
         min_number = number
 
 print(min_number, "is the min number.")
