@@ -15,4 +15,4 @@ def get_factors(x):
             factors.append(i)
     return factors
 
-print(get_factors(21))
+print(get_factors(2))
